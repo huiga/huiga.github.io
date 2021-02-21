@@ -134,7 +134,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "%%%%%%%%%%%%%%fillertext%%%%%%%%%%%%%%%%",
+    "If you have any quesitons, opportunities, or simply want to connect, feel free to send me an email at ",
   email: "eddiexudev@gmail.com",
 };
 
