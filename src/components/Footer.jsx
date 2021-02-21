@@ -2,11 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 const Footer = (props) => {
-<<<<<<< HEAD
-  const style = { backgroundColor: "#f5f5f5", fontSize: '.85em' };
-=======
-  const bgStyle = { backgroundColor: "#f5f5f5", fontStlyle: ".85em"};
->>>>>>> 14840a79cd41480974eca2f4a50ed9f1ba8ec554
+  const style = { backgroundColor: "#f5f5f5", fontStlyle: ".85em"};
 
   return (
     <footer style={style} className="mt-auto py-5 text-center ">

@@ -40,7 +40,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/eddiexu.png"),
-  imageSize: 500,
+  imageSize: 400,
   message1:
     "I am a junior studying Computer Science and Applied Math & Statistics " +
     "at Stony Brook University under the honors program. My primary work resides in building full stack web applications " + 
@@ -114,11 +114,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-<<<<<<< HEAD
-    "If you have any questions, inquries, or simply want to connect, feel free to send a quick email at ",
-=======
     "If you have any quesitons, opportunities, or simply want to connect, feel free to send me an email at ",
->>>>>>> 14840a79cd41480974eca2f4a50ed9f1ba8ec554
   email: "eddiexudev@gmail.com",
 };
 

@@ -51,8 +51,7 @@ const AboutMe = ({ heading, message1, message2, link, imgSize, resume }) => {
             )}
           </div>
 
-          {/* <div className={`col-lg-${showPic ? "20" : "20"}`}> */}
-          <div className="col-lg-7">
+          <div className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className="display-4 mb-5 text-center" >{heading}</h2>
             <p className="lead text-center">{message1}</p>
             <p className="lead text-center">{message2} </p>
