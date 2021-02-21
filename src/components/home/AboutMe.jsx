@@ -42,7 +42,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 src={profilePicUrl}
                 alt="profilepicture"
                 width={imgSize}
-                height={imgSize}
+                height={imgSize + 20}
               />
             )}
           </div>

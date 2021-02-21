@@ -2,11 +2,12 @@ import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import SkillsTab from "./SkillsTab";
+import SkillsCard from "./SkillsCard";
 import Row from "react-bootstrap/Row";
 import { Jumbotron, Container } from "react-bootstrap";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
-function Skills({ heading, hardSkills, softSkills }) {
+function Skills({ heading, skillNames }) {
   const skillsTabRef = React.useRef();
   const [isScrolled, setIsScrolled] = React.useState(false);
   //const navbarDimensions = useResizeObserver(navbarMenuRef);
@@ -20,11 +21,13 @@ function Skills({ heading, hardSkills, softSkills }) {
   );
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
-      <Container className="p-5 ">
+      <Container className="p-4">
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
-        <Tabs
+        {/* {console.log(skillNames)} */}
+        <SkillsTab skills={skillNames} isScrolled={isScrolled}/> 
+        {/* <Tabs
           className="skills-tabs"
           defaultActiveKey="hard-skills"
           id="skills-tabs"
@@ -47,7 +50,7 @@ function Skills({ heading, hardSkills, softSkills }) {
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />
             </Row>
           </Tab>
-        </Tabs>
+        </Tabs> */}
       </Container>
     </Jumbotron>
   );

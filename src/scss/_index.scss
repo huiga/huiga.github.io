@@ -104,7 +104,7 @@ code {
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
   &:hover {
-    box-shadow: 0 2rem 3rem rgba($black, 0.175) !important;
+    box-shadow: 0 2rem 3rem rgba($black, 0.275) !important;
     transform: translateY(-2px);
     transition: transform 0.3s, box-shadow 0.3s;
   }
@@ -116,6 +116,13 @@ code {
   flex-grow: 1;
   text-align: center;
 }
+
+// .skills-card-container {
+//   flex-wrap: wrap;
+//   flex-direction: left;
+//   width: inherit;
+//   background-color: black;
+// }
 
 .progress {
   transform-origin: left;
