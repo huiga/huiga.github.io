@@ -43,11 +43,11 @@ const about = {
   imageSize: 500,
   message1:
     "I am a junior studying Computer Science and Applied Math & Statistics " +
-    "at Stony Brook University under the honors program. I enjoy seeing life in data and turning abstract "+ 
-    "visions into functional realities. My primary work resides in building full stack web applications " + 
+    "at Stony Brook University under the honors program. My primary work resides in building full stack web applications " + 
     "that bring existing systems into a modern-day take as well as creating applications that tackle tedious tasks in " + 
-    "one's everyday life.",
-  message2: "As an aspiring developer in the prime age of technological development, I happily challenge myself in "+
+    "one's everyday life. From building a best-beginner-hack app at SBUHacks'20 to building apps that address a pandemic, " +
+    "I strive to make a difference through my work.",
+  message2: "As a developer in the prime age of technological development, I happily challenge myself in "+
   "taking tasks and extrapolating their use cases to pave the path to new and exciting discoveries.",
   resume: require("../editable-stuff/resume.pdf"),
 };
@@ -66,45 +66,28 @@ const repos = {
 };
 
 // Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/eddiexu.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/eddiexu.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};
-
-// SKILLS SECTION
-// const skills = {
-//   show: true,
-//   heading: "Skills",
-//   hardSkills: [
-//     { name: "Python", value: 90 },
-//     { name: "SQL", value: 75 },
-//     { name: "Data Structures", value: 85 },
-//     { name: "C/C++", value: 65 },
-//     { name: "JavaScript", value: 90 },
-//     { name: "React", value: 65 },
-//     { name: "HTML/CSS", value: 55 },
-//     { name: "C#", value: 80 },
+// const leadership = {
+//   show: false,
+//   heading: "Leadership",
+//   message:
+//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+//   images: [
+//     { 
+//       img: require("../editable-stuff/eddiexu.png"), 
+//       label: "First slide label", 
+//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+//     },
+//     { 
+//       img: require("../editable-stuff/eddiexu.png"), 
+//       label: "Second slide label", 
+//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+//     },
 //   ],
+//   imageSize: {
+//     width:"615",
+//     height:"450"
+//   }
 // };
-// Java, Python, C, HTML/CSS, JavaScript, MySQL, OCaml, MIPS, LaTex, Swift, XML, Gdscript, Octave
 
 const skills = {
   show: true,
@@ -127,37 +110,35 @@ const skills = {
 };
 
 
-
-
-// GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
+<<<<<<< HEAD
     "If you have any questions, inquries, or simply want to connect, feel free to send a quick email at ",
+=======
+    "If you have any quesitons, opportunities, or simply want to connect, feel free to send me an email at ",
+>>>>>>> 14840a79cd41480974eca2f4a50ed9f1ba8ec554
   email: "eddiexudev@gmail.com",
 };
 
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
-
-// Blog SECTION
-// const blog = {
+// const experiences = {
 //   show: false,
-// };
+//   heading: "Experiences",
+//   data: [
+//     {
+//       role: 'Software Engineer',
+//       companylogo: require('../assets/img/dell.png'),
+//       date: 'June 2018 – Present',
+//     },
+//     {
+//       role: 'Front-End Developer',
+//       companylogo: require('../assets/img/boeing.png'),
+//       date: 'May 2017 – May 2018',
+//     },
+//   ]
+// }
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+
+// export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, getInTouch };

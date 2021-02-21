@@ -140,10 +140,16 @@ code {
 
 .container {
   margin: 0 auto;
+<<<<<<< HEAD
   // padding: 15px;
   // min-width: 1500px;
   min-width:fit-content;
   width: 90%;
+=======
+  // min-width: 1520px;
+  min-width: fit-content;
+  width: 100%;
+>>>>>>> 14840a79cd41480974eca2f4a50ed9f1ba8ec554
 }
 @media only screen and (min-width: 600px) {
   .container {

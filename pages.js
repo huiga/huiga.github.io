@@ -5,7 +5,7 @@ const repoURL = "https://github.com/huiga/huiga.github.io.git";
 ghpages.publish(
   pathname,
   {
-    branch: "master",
+    branch: "gh-pages",
     repo: repoURL,
   },
   (err) => {
