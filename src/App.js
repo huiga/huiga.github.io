@@ -5,10 +5,10 @@ import {
   mainBody,
   about,
   repos,
-  leadership,
+  // leadership,
   skills,
   getInTouch,
-  experiences
+  // experiences
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
