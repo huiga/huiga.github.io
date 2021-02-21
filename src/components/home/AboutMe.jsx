@@ -34,7 +34,7 @@ const AboutMe = ({ heading, message1, message2, link, imgSize, resume }) => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{padding:"5% 10%"}}>
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{padding:"5% 13%"}}>
     {/* <Jumbotron fluid id="aboutme" className="m-0"> */}
       {/* <Container fluid>  */}
       <div className="container container-fluid">
