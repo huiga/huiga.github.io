@@ -43,11 +43,11 @@ const about = {
   imageSize: 500,
   message1:
     "I am a junior studying Computer Science and Applied Math & Statistics " +
-    "at Stony Brook University under the honors program. I enjoy seeing life in data and turning abstract "+ 
-    "visions into functional realities. My primary work resides in building full stack web applications " + 
+    "at Stony Brook University under the honors program. My primary work resides in building full stack web applications " + 
     "that bring existing systems into a modern-day take as well as creating applications that tackle tedious tasks in " + 
-    "one's everyday life.",
-  message2: "As an aspiring developer in the prime age of technological development, I happily challenge myself in "+
+    "one's everyday life. From building a best-beginner-hack app at SBUHacks'20 to building apps that address a pandemic, " +
+    "I strive to make a difference through my work.",
+  message2: "As a developer in the prime age of technological development, I happily challenge myself in "+
   "taking tasks and extrapolating their use cases to pave the path to new and exciting discoveries.",
   resume: require("../editable-stuff/resume.pdf"),
 };
