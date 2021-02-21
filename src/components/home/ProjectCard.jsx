@@ -14,7 +14,7 @@ const ProjectCard = ({ value }) => {
     pushed_at,
   } = value;
   return (
-    <Col md={6}>
+    <Col md={4}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
