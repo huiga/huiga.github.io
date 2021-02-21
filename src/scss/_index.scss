@@ -1,7 +1,7 @@
 html {
-  font-size: 20px;
+  font-size: 16px;
   @media (min-width: 768px) {
-    font-size: 20px;
+    font-size: 16px;
   }
   scroll-behavior: smooth;
 }
@@ -140,8 +140,10 @@ code {
 
 .container {
   margin: 0 auto;
-  min-width: 1520px;
-  width: 100%;
+  // padding: 15px;
+  // min-width: 1500px;
+  min-width:fit-content;
+  width: 90%;
 }
 @media only screen and (min-width: 600px) {
   .container {
