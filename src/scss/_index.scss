@@ -1,7 +1,7 @@
 html {
-  font-size: 14px;
+  font-size: 20px;
   @media (min-width: 768px) {
-    font-size: 16px;
+    font-size: 20px;
   }
   scroll-behavior: smooth;
 }
@@ -134,5 +134,22 @@ code {
   @extend .progress;
   & > * {
     animation: progress 1.5s ease-in-out forwards;
+  }
+}
+
+
+.container {
+  margin: 0 auto;
+  min-width: 1520px;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .container {
+    width: 70%;
   }
 }

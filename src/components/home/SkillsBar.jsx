@@ -14,3 +14,4 @@ function SkillsBar({ skill, value, isScrolled }) {
 }
 
 export default SkillsBar;
+ 

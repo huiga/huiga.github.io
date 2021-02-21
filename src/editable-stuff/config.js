@@ -41,8 +41,14 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/eddiexu.png"),
   imageSize: 500,
-  message:
-    "<Filler Text> Bio",
+  message1:
+    "I am a junior studying Computer Science and Applied Math & Statistics " +
+    "at Stony Brook University under the honors program. I enjoy seeing life in data and turning abstract "+ 
+    "visions into functional realities. My primary work resides in building full stack web applications " + 
+    "that bring existing systems into a modern-day take as well as creating applications that tackle tedious tasks in " + 
+    "one's everyday life.",
+  message2: "As an aspiring developer in the prime age of technological development, I happily challenge myself in "+
+  "taking tasks and extrapolating their use cases to pave the path to new and exciting discoveries.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -99,9 +105,10 @@ const leadership = {
 //   ],
 // };
 // Java, Python, C, HTML/CSS, JavaScript, MySQL, OCaml, MIPS, LaTex, Swift, XML, Gdscript, Octave
+
 const skills = {
   show: true,
-  heading: 'Skills',
+  heading: "Skills",
   skillNames: [
     {name: "Java"},
     {name: "Python"},
@@ -117,7 +124,7 @@ const skills = {
     {name: "GDScript"},
     {name: "Octave"}
   ]
-}
+};
 
 
 

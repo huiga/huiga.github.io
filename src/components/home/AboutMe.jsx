@@ -1,13 +1,15 @@
 import React from "react";
+import { Jumbotron, Container } from "react-bootstrap";
 import Pdf from "../../editable-stuff/resume.pdf";
 
 import axios from "axios";
+// import { Jumbotron } from "react-bootstrap";
 
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
 
-const AboutMe = ({ heading, message, link, imgSize, resume }) => {
+const AboutMe = ({ heading, message1, message2, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
@@ -33,6 +35,8 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
+    {/* <Jumbotron fluid id="aboutme" className="m-0"> */}
+      {/* <Container fluid>  */}
       <div className="container container-fluid">
         <div className="row">
           <div className="col-5 d-none d-lg-block align-self-center">
@@ -47,9 +51,18 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             )}
           </div>
 
-          <div className={`col-lg-${showPic ? "7" : "12"}`}>
-            <h2 className="display-4 mb-5 text-center">{heading}</h2>
-            <p className="lead text-center">{message}</p>
+          {/* <div className={`col-lg-${showPic ? "20" : "20"}`}> */}
+          <div className="col-lg-7">
+            <h2 className="display-4 mb-5 text-center" >{heading}</h2>
+            <p className="lead text-center">{message1}</p>
+            <p className="lead text-center">{message2} </p>
+            <hr/>
+              <div className="container">
+                <div className="row">
+                  <p>Testing info</p>
+                </div>
+              </div>
+            <hr/>
             {resume && (
               <p className="lead text-center">
                 <a
@@ -63,9 +76,13 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   Resume
                 </a>
               </p>
+              
             )}
           </div>
+          
         </div>
+      {/* </Container> */}
+      {/* </Jumbotron> */}
       </div>
     </div>
   );
