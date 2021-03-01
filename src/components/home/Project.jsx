@@ -55,7 +55,7 @@ const Project = ({ heading, username, length, specfic }) => {
 
   return (
     <Jumbotron fluid id="projects" className="bg-light m-0">
-      <Container fluid className="p-3" style={{width:"80%"}}>
+      <Container>
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row>
           {projectsArray.length
