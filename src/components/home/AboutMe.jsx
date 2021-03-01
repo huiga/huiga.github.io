@@ -58,7 +58,12 @@ const AboutMe = ({ heading, message1, message2, link, imgSize, resume }) => {
             <hr/>
               <div className="container">
                 <div className="row">
-                  <p>Testing info</p>
+                  <div className="col-7">
+                    <p>Email: eddiexudev@gmail.com</p>
+                  </div>
+                  <div className="col-5">
+                    <p>Location: Brooklyn, NY</p>
+                  </div>
                 </div>
               </div>
             <hr/>

@@ -154,3 +154,46 @@ code {
 //     width: 70%;
 //   }
 // }
+
+.experience-tl {
+	list-style: none;
+	margin-left: 60px;
+	padding-left: 110px;
+	border-left: 2px solid #40424a;
+}
+
+.experience-tl li {
+	margin-bottom: 5em;
+	position: relative;
+}
+
+.experience-tl li:last-child {
+	margin-bottom: 0em;
+}
+
+.experience-tl li:after {
+	position: absolute;
+  top: 30px;
+	left: -119px;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border: 2px solid #2c2c30;
+	border-radius: 50px;
+	background: #cacaca;
+}
+
+.experience-tl h2 {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+.experience-tl h3 {
+	font-size: 1.5em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+.experience-tl p {
+	margin-bottom: 0;
+}

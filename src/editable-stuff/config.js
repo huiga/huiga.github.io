@@ -118,23 +118,34 @@ const getInTouch = {
   email: "eddiexudev@gmail.com",
 };
 
-// const experiences = {
-//   show: false,
-//   heading: "Experiences",
-//   data: [
-//     {
-//       role: 'Software Engineer',
-//       companylogo: require('../assets/img/dell.png'),
-//       date: 'June 2018 – Present',
-//     },
-//     {
-//       role: 'Front-End Developer',
-//       companylogo: require('../assets/img/boeing.png'),
-//       date: 'May 2017 – May 2018',
-//     },
-//   ]
-// }
+const experiences = {
+  show: true,
+  heading: "Experiences",
+  data: [
+    {
+      role: 'Undergraduate Teaching Assistant',
+      location: 'Stony Brook University',
+      date: 'January 2020 – May 2020',
+      description: 'I was a teaching assistant for CSE220: System Fundamentals I. In addition to ' +
+        'responding to student questions regarding course information and material, ' +
+        'I held weekly office hours to extend my help to over 100 students in modeling ' +
+        'and debugging their work in MIPS Assembly. I helped to coordinate review seeions  ' +
+        'with 12 other TAs and aided in desigining bi-weekly course projects for the semester.',
+    },
+    {
+      role: 'Assistant Researcher',
+      location: 'NYU Langone Medical Center',
+      date: 'September 2016 – June 2017',
+      description: 'I worked as an assistant researcher under Dr. Bruce Cronstein at NYU Langone ' +
+        'Medical Center. I worked in a team of 2 to conduct research in rheumatic diseases and ' +
+        'the correlation between adenosine receptor explotation and inflammation regulation. My primary ' +
+        'work was in preparing and dissecting multiple controlled batches of specimen for study of ' +
+        'rheumatic disease, as well as logging and compiling data recieved from samples for the lab for ' +
+        'weekly presentations. ',
+    },
+  ]
+}
 
 
 // export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
-export { navBar, mainBody, about, repos, skills, getInTouch };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences};
