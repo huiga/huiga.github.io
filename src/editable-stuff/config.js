@@ -118,23 +118,23 @@ const getInTouch = {
   email: "eddiexudev@gmail.com",
 };
 
-// const experiences = {
-//   show: false,
-//   heading: "Experiences",
-//   data: [
-//     {
-//       role: 'Software Engineer',
-//       companylogo: require('../assets/img/dell.png'),
-//       date: 'June 2018 – Present',
-//     },
-//     {
-//       role: 'Front-End Developer',
-//       companylogo: require('../assets/img/boeing.png'),
-//       date: 'May 2017 – May 2018',
-//     },
-//   ]
-// }
+const experiences = {
+  show: true,
+  heading: "Experiences",
+  data: [
+    {
+      role: 'Software Engineer',
+      // companylogo: require('../assets/img/dell.png'),
+      date: 'June 2018 – Present',
+    },
+    {
+      role: 'Front-End Developer',
+      // companylogo: require('../assets/img/boeing.png'),
+      date: 'May 2017 – May 2018',
+    },
+  ]
+}
 
 
 // export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
-export { navBar, mainBody, about, repos, skills, getInTouch };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences};
