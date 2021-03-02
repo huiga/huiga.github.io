@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#466BA0, #6E9EE9, #88CED7, #6CBDCB, #A7A5ED, #7F93A7",
+  gradientColors: "#245468, #9ABCF0, #75c6d1, #6CBDCB, #A7A5ED, #7F93A7",
   firstName: "Eddie",
   middleName: "",
   lastName: "Xu",
@@ -123,11 +123,17 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Rotational Technology Intern',
+      location: 'Teachers Insurance Annuity Association',
+      date: 'June 2021 – August 2021',
+      description: 'An upcoming adventure!',
+    },
+    {
       role: 'Undergraduate Teaching Assistant',
       location: 'Stony Brook University',
       date: 'January 2020 – May 2020',
       description: 'I was a teaching assistant for CSE220: System Fundamentals I. In addition to ' +
-        'responding to student questions regarding course information and material, ' +
+        'responding to student questions on Piazza, ' +
         'I held weekly office hours to extend my help to over 100 students in modeling ' +
         'and debugging their work in MIPS Assembly. I helped to coordinate review seeions  ' +
         'with 12 other TAs and aided in desigining bi-weekly course projects for the semester.',
@@ -137,8 +143,7 @@ const experiences = {
       location: 'NYU Langone Medical Center',
       date: 'September 2016 – June 2017',
       description: 'I worked as an assistant researcher under Dr. Bruce Cronstein at NYU Langone ' +
-        'Medical Center. I worked in a team of 2 to conduct research in rheumatic diseases and ' +
-        'the correlation between adenosine receptor explotation and inflammation regulation. My primary ' +
+        'Medical Center. I worked in a team of 2 to conduct research in rheumatic diseases. My primary ' +
         'work was in preparing and dissecting multiple controlled batches of specimen for study of ' +
         'rheumatic disease, as well as logging and compiling data recieved from samples for the lab for ' +
         'weekly presentations. ',

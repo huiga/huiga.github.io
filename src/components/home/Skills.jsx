@@ -22,9 +22,11 @@ function Skills({ heading, skillNames }) {
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
       <Container fluid className="p-4" style={{width:'75%'}}>
-        <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
+        <hr/>
+        <h2 ref={skillsTabRef} className="display-4 pb-3 text-center" style={{fontSize:'3em'}}>
           {heading}
         </h2>
+        <hr/>
         <SkillsTab skills={skillNames} isScrolled={isScrolled}/> 
       </Container>
     </Jumbotron>
